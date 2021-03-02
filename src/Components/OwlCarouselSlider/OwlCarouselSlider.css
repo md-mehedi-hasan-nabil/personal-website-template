@@ -1,0 +1,24 @@
+#owl-demo .item {
+  margin: 3px;
+}
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-indicators {
+  margin-bottom: -66px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #FBD062;
+  border-radius: 50%;
+}
+
+.cutImg {
+  border-radius: 0 15px 15px 15px;
+}

@@ -1,0 +1,118 @@
+/* .imgHover {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.imgHover:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s;
+} */
+
+.bg-blur {
+    backdrop-filter: blur(10px);
+}
+
+.letter {
+    transform-origin: 0 0;
+    transition: animation 2s;
+    display: inline-block;
+    animation: logoAnimation 2s infinite;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(8deg)
+    }
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+.header-bg-img {
+    width: 100%;
+    background:linear-gradient(45deg, rgba(99, 96, 96, 0.3), rgba(232, 206, 191, 0.5)), url(../../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgEffect {
+    position: relative;
+    
+}
+
+/* .bgEffect::before {
+    content: '';
+    position: absolute;
+    width: 42%;
+    height: 20%;
+    background-color: rgba(0, 123, 255, 0.5);
+    top: 30px;
+    left: 0;
+    border-radius: 0 200% 90% 100%;
+    animation: bgAnimation 2s infinite;
+    z-index: -9;
+}
+
+@keyframes bgAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.01);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */
+
+.navbarEffect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+    /* font-weight: bold; */
+    box-shadow: 0px 0px 4px #de1dde;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    animation-name: navbarAnimation;
+    animation-duration: 0.8s;
+}
+
+@keyframes navbarAnimation {
+    from {
+        top: -60px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.dark {
+    color: #343a40 !important;
+}
+
+.light {
+    color: #f8f9fa !important;
+}
+
+.skillbar-img {
+    width: 100%;
+    background:linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../../images/home-pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.img-border {
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.backgroundImg {
+    background: linear-gradient(0deg, rgba(55, 65, 250, 0.9), rgba(255, 0, 150, 0.3)), url(../../images/mehedi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.signupBackground {
+    background-image: linear-gradient(to right, #D980FA, #1B1464);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

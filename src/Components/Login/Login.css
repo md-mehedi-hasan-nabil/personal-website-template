@@ -1,0 +1,18 @@
+.loginBackground {
+    background-image: linear-gradient(to right, #1B1464, #D980FA);
+    min-height: 100vh;
+}
+
+.btnIcon {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.googleIcon {
+    position: absolute;
+    bottom: 52px;
+    left: 52px;
+    width: 30px;
+    height: 30px;
+}
